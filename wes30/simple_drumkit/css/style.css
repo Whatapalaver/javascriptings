@@ -1,0 +1,69 @@
+.wrapper {
+  height: 439px;
+  width: 640px;
+  display: grid;
+
+  grid-template-columns: 120px 55px 117px 117px 235px;
+  grid-template-rows: 64px 109px 67px 50px 82px 62px;
+  grid-template-areas: 
+    "q q . . r"
+    "q q w e r"
+    "a s . . d"
+    ". s . . d"
+    ". . z z d"
+    ". . z z .";
+  background-image: url("../images/drumkit.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+.box {
+  border: 1px solid #193824;
+}
+
+.q {
+  grid-area: q;
+}
+.w {
+  grid-area: w;
+}
+.e {
+  grid-area: e;
+}
+.r {
+  grid-area: r;
+}
+.a {
+  grid-area: a;
+}
+.s {
+  grid-area: s;
+}
+.d {
+  grid-area: d;
+}
+.z {
+  grid-area: z;
+}
+.x {
+  grid-area: x;
+}
+.key {
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 .5rem black;
+}
+
+kbd {
+  font-size: 3rem;
+}
+
+.sound {
+  visibility: hidden;
+}
