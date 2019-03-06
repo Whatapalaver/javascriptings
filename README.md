@@ -10,7 +10,7 @@ Wes Bos JS30 Challenge
 | | | |
 |<a href="https://whatapalaver.github.io/javascriptings/wes30/array_cardio/"><img width="1604" alt="Array cardio" src="./images/array_cardio.png"> Array Cardio </a> |  <a href="https://whatapalaver.github.io/javascriptings/wes30/flex_panel/"><img width="1604" alt="Flex panel" src="./images/flex_panel.png"> Flex Panel </a> |<a href="https://whatapalaver.github.io/javascriptings/wes30/type_ahead/"><img width="1604" alt="Search with Ajax" src="./images/search.png"> Ajax Search </a> |
 | | | |
-|<a href="https://whatapalaver.github.io/javascriptings/wes30/array_cardio2/"><img width="1604" alt="Array cardio 2" src="./images/array_cardio2.png"> Array Cardio 2 </a> |  <a href="https://whatapalaver.github.io/javascriptings/wes30/canvas/"><img width="1604" alt="Flex panel" src="./images/canvas.png"> HTML 5 Canvas </a> |<a href="https://whatapalaver.github.io/javascriptings/wes30/dev_tricks/"><img width="1604" alt="Top dev tricks" src="./images/dev_tricks.png"> Top Dev Tricks </a> |
+|<a href="https://whatapalaver.github.io/javascriptings/wes30/array_cardio2/"><img width="1604" alt="Array cardio 2" src="./images/array_cardio2.png"> Array Cardio 2 </a> |  <a href="https://whatapalaver.github.io/javascriptings/wes30/canvas/"><img width="1604" alt="Flex panel" src="./images/canvas.png"> HTML 5 Canvas </a> |<a href="https://whatapalaver.github.io/javascriptings/wes30/dev_tricks/"><img width="1604" alt="Top dev tricks" src="./images/console.png"> Top Dev Tricks </a> |
 | | | |
 
 
@@ -30,4 +30,4 @@ Wes Bos JS30 Challenge
 
 8) [HTML 5 Canvas](https://whatapalaver.github.io/javascriptings/wes30/canvas/) - a recreation of MS paint in the canvas.
 
-9) [Top Dev Tricks](https://whatapalaver.github.io/javascriptings/wes30/dev_tricks/)
+9) [Top Dev Tricks](https://whatapalaver.github.io/javascriptings/wes30/dev_tricks/) - console tricks
