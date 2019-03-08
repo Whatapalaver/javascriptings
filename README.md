@@ -1,6 +1,14 @@
 Vanilla JavaScript Experiments
 ===
 
+Image Experimentation
+---
+
+| | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+|<a href="https://whatapalaver.github.io/javascriptings/image_play/wiggle/"><img width="1604" alt="Stereogram 3D Wiggle" src="./images/wiggle.png">  The Moon 3D Wiggle </a>  | | |
+| | | |
+
 Wes Bos JS30 Challenge
 ---
 
