@@ -1,0 +1,40 @@
+html, body {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background: #7A419B;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #7c1599 0%,#921099 48%,#7e4ae8 100%);
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+}
+
+.moon {
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  background-image: url('../images/right.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.player__slider {
+  width: 300px;
+  height: 30px;
+}
+
+.player__controls {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  transform: translateY(100%) translateY(-5px);
+  transition: all .3s;
+  flex-wrap: wrap;
+  background: rgba(0,0,0,0.15;
+}

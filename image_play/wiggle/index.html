@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Wiggle Moon</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="player">
+    <canvas id="moonCanvas" width="809" height="913"></canvas>
+    <div class="player__controls">
+      <input type="range" name="playbackRate" class="player__slider" min="50" max="500" step="20" value="200">
+    </div>
+  </div>
+
+<script>
+
+  const canvas = document.getElementById('moonCanvas');
+  const ctx = canvas.getContext('2d');
+  const range = document.querySelector('.player__slider');
+  const moonObj = new Image();
+  moonObj.src = './images/newmoon.jpeg';
+  let side = 'left';
+
+  let sWidth = moonObj.width / 2 ;
+  let sHeight = moonObj.height;
+  let dWidth = sWidth;
+  let dHeight = sHeight;
+  let dx = canvas.width / 2 - dWidth / 2;
+  let dy = canvas.height / 2 - dHeight / 2;
+  let sx;
+  let sy;
+
+  let play = false;
+  let playSpeed = 200;
+
+  moonObj.onload = function() {
+    sx = 0;
+    sy = 0;
+    sWidth = moonObj.width / 2 ;
+    sHeight = moonObj.height;
+    dWidth = sWidth;
+    dHeight = sHeight;
+    dx = canvas.width / 2 - dWidth / 2;
+    dy = canvas.height / 2 - dHeight / 2;
+    ctx.drawImage(moonObj, sx, sy, sWidth, sHeight, dx, dy, dWidth, dHeight);
+  };
+
+  function toggleSide() {
+    side === 'right' ? side ='left' : side = 'right';
+  }
+
+  function switchImage(moonObj, ctx) {
+    toggleSide()
+    side === 'right' ? sx = moonObj.width / 2 : sx = 0;
+    ctx.drawImage(moonObj, sx, sy, sWidth, sHeight, dx, dy, dWidth, dHeight);
+}
+
+  function animate( image, canvas, ctx) {
+    if (play) {
+      switchImage(image, ctx);
+      setTimeout(function() {
+      requestAnimFrame(function() {
+        animate( image, canvas, ctx);
+      });
+    }, playSpeed);
+    }
+    
+  }
+
+  window.requestAnimFrame = (function(callback) {
+    return window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || window.oRequestAnimationFrame || window.msRequestAnimationFrame ||
+    function(callback) {
+      window.setTimeout(callback, 1000);
+    };
+  })();
+
+  function handleRangeUpdate() {
+    playSpeed = this.value;
+  }
+
+  // add eventlisteners
+
+  canvas.addEventListener('click', function() {
+    play = !play; // toggle animation status
+    if (play) { animate( moonObj, canvas, ctx);}
+  });
+
+  range.addEventListener('change', handleRangeUpdate)
+
+</script>
+
+</body>
+</html>
