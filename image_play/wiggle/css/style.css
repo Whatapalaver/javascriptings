@@ -1,26 +1,53 @@
-html, body {
+html {
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
   margin: 0;
   padding: 0;
   display: flex;
-  background: #7A419B;
-  min-height: 100vh;
-  background: linear-gradient(135deg, #7c1599 0%,#921099 48%,#7e4ae8 100%);
+  background: #101010;
   background-size: cover;
   align-items: center;
   justify-content: center;
 }
 
+.title {
+  padding: 20px;
+  color: white;
+  min-height: 50px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+
+}
+
+p {
+  text-align: left;
+  color: grey;
+  font-size: 15px;
+  padding-top: 10px;
+}
+
 .moon {
-  min-height: 100vh;
+
   overflow: hidden;
   display: flex;
   background-image: url('../images/right.jpg');
   background-position: center;
   background-repeat: no-repeat;
+  max-width:100%;
+  max-height:100%;
+}
+
+.player {
+  max-width: 600px;
+  position: relative;
+  font-size: 0;
 }
 
 .player__slider {
@@ -30,8 +57,6 @@ body {
 
 .player__controls {
   display: flex;
-  position: absolute;
-  bottom: 0;
   width: 100%;
   transform: translateY(100%) translateY(-5px);
   transition: all .3s;
