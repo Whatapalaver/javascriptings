@@ -20,7 +20,7 @@ Wes Bos JS30 Challenge
 | | | |
 |<a href="https://whatapalaver.github.io/javascriptings/wes30/array_cardio2/"><img width="1604" alt="Array cardio 2" src="./images/array_cardio2.png"> Array Cardio 2 </a> |  <a href="https://whatapalaver.github.io/javascriptings/wes30/canvas/"><img width="1604" alt="Flex panel" src="./images/canvas.png"> HTML 5 Canvas </a> |<a href="https://whatapalaver.github.io/javascriptings/wes30/dev_tricks/"><img width="1604" alt="Top dev tricks" src="./images/console.png"> Top Dev Tricks </a> |
 | | | |
-|<a href="https://whatapalaver.github.io/javascriptings/wes30/checkboxes/"><img width="1604" alt="Checkboxes" src="./images/checkboxes.png"> Shift & Checkboxes </a> |  <a href="https://whatapalaver.github.io/javascriptings/wes30/video/"><img width="1604" alt="HTML 5 video player" src="./images/video.png"> HTML 5 Video </a> |<a href="https://whatapalaver.github.io/javascriptings/wes30/sequence/"><img width="1604" alt="Sequence detection" src="./images/sequence.png"> Sequence Detection </a> |
+|<a href="https://whatapalaver.github.io/javascriptings/wes30/checkboxes/"><img width="1604" alt="Checkboxes" src="./images/checkboxes.png"> Shift & Checkboxes </a> |  <a href="https://whatapalaver.github.io/javascriptings/wes30/video/"><img width="1604" alt="HTML 5 video player" src="./images/video.png"> HTML 5 Video </a> |<a href="https://whatapalaver.github.io/javascriptings/wes30/key_sequence/"><img width="1604" alt="Sequence detection" src="./images/key_sequence.png"> Key Sequence Detection </a> |
 | | | |
 
 
